@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "845204391234",
+    "firebase_url": "https://sketchat-3345e.firebaseio.com",
+    "project_id": "sketchat-3345e",
+    "storage_bucket": "sketchat-3345e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845204391234:android:ad51bc828ae325ed",
+        "android_client_info": {
+          "package_name": "com.sketchat.ali.sketchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845204391234-iuhac0kfpb12fv1f50dddib0m97n3360.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sketchat.ali.sketchat",
+            "certificate_hash": "33758bf7ccf63a95a676cc9dace91f7f8edd797d"
+          }
+        },
+        {
+          "client_id": "845204391234-djqpksipsi22fapp3tf9r75f4linggle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwbKVWGU8LPg-WPSI5EJjPuHmHqCIcC4I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845204391234-djqpksipsi22fapp3tf9r75f4linggle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

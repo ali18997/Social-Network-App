@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <Button
+        android:id="@+id/start_reg_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_log_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/buttonshape3"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Sign Up for a New Account"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/start_log_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/start_reg_button"
+        android:layout_alignLeft="@+id/start_reg_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/start_reg_button"
+        android:layout_alignStart="@+id/start_reg_button"
+        android:layout_marginBottom="58dp"
+        android:background="@drawable/buttonshape1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="sign IN existing account"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Welcome to Sketchat!"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_reg_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="Join our Social Network"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:text="OR"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/start_p2p_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/buttonshape3"
+        android:backgroundTint="@color/colorPrimary"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Start Private Messaging"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_p2p_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="Go Incognito!"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+</RelativeLayout>
